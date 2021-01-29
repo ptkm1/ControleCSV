@@ -1,8 +1,8 @@
-import React from 'react';
+import Tables from "./views/pages/AuthPages/Tables";
 
 function App() {
   return (
-    <h1>App</h1>
+    <Tables />
   );
 }
 
