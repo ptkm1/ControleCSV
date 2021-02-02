@@ -5,6 +5,16 @@ const colors = {
   text: "#000"
 }
 
+export const FormTable = styled.form`
+  position: absolute;
+  height: 80vh;
+  width: 75%;
+  display: 'flex';
+  flex-direction: "column";
+  align-items: "center";
+  overflow: scroll;
+`
+
 export const TableComponent = styled.div`
   width: 98%;
   height: 85px;
@@ -39,6 +49,7 @@ export const Nome = styled.div`
   display: flex;
   justify-content:center;
   align-items: center;
+  text-align: center;
   h3{
     font-size: 1.2rem;
   }

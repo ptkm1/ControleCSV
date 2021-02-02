@@ -1,11 +1,11 @@
 //import Tables from "./views/pages/AuthPages/Tables";
 //import Login from "./views/pages/Login";
 
-import Dashboard from "./views/pages/AuthPages/Dashboard";
+import Tables from "./views/pages/AuthPages/Tables";
 
 function App() {
   return (
-    <Dashboard />
+    <Tables />
   );
 }
 

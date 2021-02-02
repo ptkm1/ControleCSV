@@ -1,0 +1,2 @@
+{ CheckRef.find( (idProp:any) => idProp.ID === e.ID) &&
+            (<CommomInput type="text" placeholder="Digite o numero"  onChange={ (e:any) => setCPFs((old:any)=>[...old,{cpf:e.target.value}]) } />) }

@@ -16,6 +16,7 @@ export const InputLogin = styled.input`
 export const CommomInput = styled.input`
   border: none;
   background: #EEF3F9;
+  box-shadow: 0px 2px 4px rgba(196, 196, 196, 0.50);
   height: 55px;
   width: 60%;
   margin: 15px;
